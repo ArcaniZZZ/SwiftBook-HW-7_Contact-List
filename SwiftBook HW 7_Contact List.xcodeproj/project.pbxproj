@@ -16,6 +16,8 @@
 		EA787C8826EE26A5008D767D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8726EE26A5008D767D /* DataManager.swift */; };
 		EA787C8A26EE35EA008D767D /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8926EE35EA008D767D /* MainScreenViewController.swift */; };
 		EA787C8C26EE4A89008D767D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8B26EE4A89008D767D /* TabBarViewController.swift */; };
+		EA787C8E26EE6060008D767D /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8D26EE6060008D767D /* SectionsViewController.swift */; };
+		EA787C9026EE8C21008D767D /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8F26EE8C21008D767D /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		EA787C8726EE26A5008D767D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EA787C8926EE35EA008D767D /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		EA787C8B26EE4A89008D767D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		EA787C8D26EE6060008D767D /* SectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		EA787C8F26EE8C21008D767D /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +69,33 @@
 				EA787C7126EE2251008D767D /* AppDelegate.swift */,
 				EA787C7326EE2251008D767D /* SceneDelegate.swift */,
 				EA787C7726EE2251008D767D /* Main.storyboard */,
-				EA787C8B26EE4A89008D767D /* TabBarViewController.swift */,
-				EA787C8926EE35EA008D767D /* MainScreenViewController.swift */,
-				EA787C8526EE23CC008D767D /* Person.swift */,
-				EA787C8726EE26A5008D767D /* DataManager.swift */,
+				EA787C9126EE8C71008D767D /* ViewControllers */,
+				EA787C9226EE8C85008D767D /* Model and Data Base */,
 				EA787C7A26EE2252008D767D /* Assets.xcassets */,
 				EA787C7C26EE2252008D767D /* LaunchScreen.storyboard */,
 				EA787C7F26EE2252008D767D /* Info.plist */,
 			);
 			path = "SwiftBook HW 7_Contact List";
+			sourceTree = "<group>";
+		};
+		EA787C9126EE8C71008D767D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA787C8B26EE4A89008D767D /* TabBarViewController.swift */,
+				EA787C8926EE35EA008D767D /* MainScreenViewController.swift */,
+				EA787C8D26EE6060008D767D /* SectionsViewController.swift */,
+				EA787C8F26EE8C21008D767D /* ContactDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA787C9226EE8C85008D767D /* Model and Data Base */ = {
+			isa = PBXGroup;
+			children = (
+				EA787C8526EE23CC008D767D /* Person.swift */,
+				EA787C8726EE26A5008D767D /* DataManager.swift */,
+			);
+			path = "Model and Data Base";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +174,8 @@
 				EA787C8A26EE35EA008D767D /* MainScreenViewController.swift in Sources */,
 				EA787C8C26EE4A89008D767D /* TabBarViewController.swift in Sources */,
 				EA787C7426EE2251008D767D /* SceneDelegate.swift in Sources */,
+				EA787C9026EE8C21008D767D /* ContactDetailsViewController.swift in Sources */,
+				EA787C8E26EE6060008D767D /* SectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
