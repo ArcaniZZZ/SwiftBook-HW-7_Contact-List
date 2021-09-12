@@ -13,6 +13,8 @@
 		EA787C7926EE2251008D767D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA787C7726EE2251008D767D /* Main.storyboard */; };
 		EA787C7B26EE2252008D767D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA787C7A26EE2252008D767D /* Assets.xcassets */; };
 		EA787C7E26EE2252008D767D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA787C7C26EE2252008D767D /* LaunchScreen.storyboard */; };
+		EA787C8626EE23CC008D767D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8526EE23CC008D767D /* Person.swift */; };
+		EA787C8826EE26A5008D767D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA787C8726EE26A5008D767D /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EA787C7A26EE2252008D767D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA787C7D26EE2252008D767D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA787C7F26EE2252008D767D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA787C8526EE23CC008D767D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EA787C8726EE26A5008D767D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EA787C7326EE2251008D767D /* SceneDelegate.swift */,
 				EA787C7526EE2251008D767D /* ViewController.swift */,
 				EA787C7726EE2251008D767D /* Main.storyboard */,
+				EA787C8526EE23CC008D767D /* Person.swift */,
+				EA787C8726EE26A5008D767D /* DataManager.swift */,
 				EA787C7A26EE2252008D767D /* Assets.xcassets */,
 				EA787C7C26EE2252008D767D /* LaunchScreen.storyboard */,
 				EA787C7F26EE2252008D767D /* Info.plist */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA787C7626EE2251008D767D /* ViewController.swift in Sources */,
+				EA787C8826EE26A5008D767D /* DataManager.swift in Sources */,
 				EA787C7226EE2251008D767D /* AppDelegate.swift in Sources */,
+				EA787C8626EE23CC008D767D /* Person.swift in Sources */,
 				EA787C7426EE2251008D767D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
